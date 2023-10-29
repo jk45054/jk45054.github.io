@@ -2,8 +2,11 @@
 title = 'First Post'
 date = 2023-10-29T11:18:19-04:00
 draft = false
-tags = [test_tag]
-categories = [test_category]
+description = "desc"
+tags = ["test"]
+categories = ["category"]
+series = ["series"]
+aliases = ["aliases"]
 +++
 
 # First Post
