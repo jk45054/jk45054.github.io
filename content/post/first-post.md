@@ -2,24 +2,24 @@
 title = 'First Post'
 date = 2023-10-29T11:18:19-04:00
 draft = false
-description = "desc"
-tags = ["test"]
-categories = ["category"]
-series = ["series"]
-aliases = ["aliases"]
+description = "First Post Description"
+tags = ["test-tag"]
+categories = ["test-category"]
+series = ["test-series"]
+aliases = ["test-aliases"]
 +++
 
-# First Post
+# H1 - First Post
 
-## H2
+## H2 - First Post
 
-### H3
+### H3 - First Post
 
-#### H4
+#### H4 - First Post
 
-##### H5
+##### H5 - First Post
 
-###### H6
+###### H6 - First Post
 
 Lorem ipsum dolor sit amet, consectetur adipisici elit
 
@@ -29,22 +29,23 @@ Lorem ipsum dolor sit amet, consectetur adipisici elit
 
 ## Table
 
-Col 1 | Col 2 | Col 3
---- | --- | ---
-Row 1 | is | here
-This | be | row2
+| Col 1 | Col 2 | Col 3 |
+| --- | --- | --- |
+| Row 1 | is | here |
+| This | be | row2 |
 
 ## Lists
 
 - Dashed list
   - Indentet
-- ...
+- Row2
+- Row3
 
 1. Numbered list
 2. goes
 3. here
 
-## Code Block Test
+## Code Block Test - Python
 
 ```python
 from binascii import unhexlify
@@ -55,7 +56,7 @@ if b != b"\x00":
   print(f"b is {b}")
 ```
 
-## Highlight Shortcode Test
+## Highlight Shortcode Test - Go
 
 {{< highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" >}}
 // GetTitleFunc returns a func that can be used to transform a string to
@@ -80,7 +81,7 @@ func GetTitleFunc(style string) func(s string) string {
 }
 {{< / highlight >}}
 
-## Mermaid Test
+## Mermaid Test - Dark Theme
 
 ```mermaid
 sequenceDiagram
