@@ -1,3 +1,4 @@
 [submodule "themes/hugo.386"]
 	path = themes/hugo.386
-	url = https://gitlab.com/jmfergeau/hugo.386/-/tree/v3
+	url = https://gitlab.com/jmfergeau/hugo.386
+	branch = v3
