@@ -25,9 +25,9 @@ preserveTaxonomyNames = true
 
     # Urls for social networks
     #facebook = "https://facebook.com"
-    twitter = "https://twitter.com"
-    linkedin = "https://linkedin.com"
-    github = "https://github.com"
+    twitter = "https://twitter.com/jkfourtwo"
+    linkedin = "https://www.linkedin.com/in/j%C3%B6rg-kleinophorst-900773174/"
+    github = "https://github.com/jk45054"
     #gitlab = "https://gitlab.com"
 
     # Enables or disables the loading animations. false activates them. Default is false.
